@@ -1,6 +1,8 @@
+import my_utils as u
+
 country='United States of America'
-county_column = 1
-fires_column = 4
+county_column = 0
+fires_column = 3
 file_name = 'Agrofood_co2_emission.csv'
-fires = get_column()
+fires = u.get_column(file_name,county_column,country,result_column=fires_column)
 print(fires)
