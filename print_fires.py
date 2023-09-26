@@ -39,6 +39,8 @@ def main():
     except TypeError:
         print('Incorrect agrumnet type, check inputs')
 
+    print(fires)
+
 
 if __name__ == '__main__':
     main()
