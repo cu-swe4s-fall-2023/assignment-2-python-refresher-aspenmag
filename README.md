@@ -32,7 +32,10 @@ to change parameters, update the command line inputs in run.sh
 -added functionality in my_utils.py to include mean, median and standard deviation 
 -added command line optoinal parameter to print_fires.py to specify one of the above statistics
 -created unit tests and functional tests
--put my_utils.py and print_fires.py in the src directory. Can still run run.sh from the main directory. 
+-put my_utils.py and print_fires.py in the src directory. Can still run run.sh from the main directory.
+
+----updates : 
+-updated directory structure for tests 
 
 ----to run unit tests: 
 run the test_my_utils.py file from unit test directory

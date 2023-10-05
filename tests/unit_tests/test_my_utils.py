@@ -4,7 +4,7 @@ import random
 import os
 import unittest
 from numpy.random import randint
-sys.path.insert(0, '../src')  # noqa # must run from unit test directory
+sys.path.insert(0, '../../src')  # noqa # must run from unit test directory
 import my_utils as u  # noqa
 #  NOTE TO SELF : i think that this will go from the unit test directory back
 #  one to the home directory where the utility functions are
