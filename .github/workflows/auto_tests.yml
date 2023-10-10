@@ -2,9 +2,9 @@ name: Automated tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, contin_int ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, contin_int ]
 
 
 jobs:
