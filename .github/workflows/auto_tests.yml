@@ -39,6 +39,6 @@ jobs:
         with: 
           activate-environment: sw4s
           environment-file: environment.yml
-      - runs: |
+      - run: |
           cd tests/functional_tests
           bash test_print_fires.sh
