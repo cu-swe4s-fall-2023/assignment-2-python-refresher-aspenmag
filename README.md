@@ -47,3 +47,6 @@ run test_print_fires.sh from the functional test directory
 ----updates : 
 -added CI automatic tests for push and pull requests
 -will run automatically when pushing or pulling to the github repository
+
+----updates : 
+-fixing the syntax in yml, testing workflow
