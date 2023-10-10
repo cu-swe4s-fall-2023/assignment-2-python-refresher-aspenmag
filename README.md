@@ -42,3 +42,8 @@ run the test_my_utils.py file from unit test directory
 
 ---- to run fucntional tests: 
 run test_print_fires.sh from the functional test directory 
+
+
+----updates : 
+-added CI automatic tests for push and pull requests
+-will run automatically when pushing or pulling to the github repository
