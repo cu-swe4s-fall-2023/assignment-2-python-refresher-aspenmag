@@ -43,7 +43,7 @@ def get_column(file_name, query_column, query_value, result_column=0):
     except TypeError:
         print('column numbers should be type int')
         sys.exit(1)
-    return(value_match)
+    return (value_match)
 
 
 def mean(values):
@@ -57,7 +57,7 @@ def mean(values):
     s = sum(values)
     try:
         mean = s/N
-        return(mean)
+        return (mean)
     except ZeroDivisionError:
         print('empy array')
         return None
@@ -77,7 +77,7 @@ def median(values):
             median = st[ind]
         else:
             median = (st[ind] + st[ind+1])/2
-        return(median)
+        return (median)
     except IndexError:
         print('index error, empty array input?')
 
@@ -93,7 +93,7 @@ def stdv(values):
     try:
         var = sum(pow(x-mn, 2) for x in values) / n
         stdv = math.sqrt(var)
-        return(stdv)
+        return (stdv)
     except ZeroDivisionError:
         print('empty array')
         return None
