@@ -30,7 +30,7 @@ def get_column(file_name, query_column, query_value, result_column=0):
             for line in f:
                 line_data = line.split(',')
                 if line_data[query_column] == query_value:
-                    value_match.append(int(line_data[result_column]))
+                    value_match.append(int(float(line_data[result_column])))
     except PermissionError:
         print('Could not open (permissions error) ' + file_name)
         sys.exit(1)

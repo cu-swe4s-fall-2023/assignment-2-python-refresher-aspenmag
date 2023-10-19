@@ -50,3 +50,23 @@ run test_print_fires.sh from the functional test directory
 
 ----updates : 
 -fixing the syntax in yml, testing workflow
+
+
+----updates :
+-snakefile to create plots : to change parameters, change the values in the snakefile
+-added plotting functions
+-additional testing for both of the above
+
+---- to run unit and functional tests
+run the visualization test files in the respective unit or functional directory
+
+---- to run snake workflow:
+run command snakemake -c1 from terminal in main project directory
+
+
+SCIENTIFIC FINDINGS:
+Using the information from the agricultural and CO2 emissions database, I looked at the possible correlation of urban population size to the level of emissions generated per country. There is a positive, approximate linear correlation between urban population and emissions for countries with populations between 1.3E6 and 1.8E6. However, countries with populations less than 1.3E6 seem to have little correlation with emissions levels. The box plot and histograms show that there is great variability in the emissions levels dataset. To get these results, I used correlations, histograms and box plots which help indicate the relationship between the variables and understand the spread in the dataset. 
+
+![image info](./emis_box.png)
+![image info](./emis_hist.png)
+![image info](./upop_emis_corr.png)
