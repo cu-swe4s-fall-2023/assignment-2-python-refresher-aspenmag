@@ -2,6 +2,12 @@ rule all:
 	input:
 		'emis_box.png', 'emis_hist.png', 'upop_emis_corr.png'
 
+rule dwnld_data:
+	output:
+		'Agrofood_co2_emission.csv'
+	shell:
+		'wget -O {output} "https://docs.google.com/uc?export=download&id=1Wytf3ryf9EtOwaloms8HEzLG0yjtRqxr"'
+
 rule plot_box:
     input:
         'Agrofood_co2_emission.csv'

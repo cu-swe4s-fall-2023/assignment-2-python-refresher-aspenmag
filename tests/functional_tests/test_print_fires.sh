@@ -16,5 +16,5 @@ assert_in_stdout 1992
 assert_exit_code 0 
 
 #test that giving a nonexistent command produces error
-run print_fires_contyear python ../../src/print_fires.py --filename ../test_data/test_data_file.csv  --country Albania  --country_column 0  --fires_column 2 --stats divide
+run print_fires_ab python ../../src/print_fires.py --filename ../test_data/test_data_file.csv  --country Albania  --country_column 0  --fires_column 2 --silly
 assert_stderr
