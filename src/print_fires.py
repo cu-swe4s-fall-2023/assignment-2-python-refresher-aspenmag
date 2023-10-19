@@ -81,7 +81,7 @@ def main():
             stdv = call_stdv(fires)
     except:  # noqa
         print('invalid stats input argument')
-
+    
 
 if __name__ == '__main__':
     main()
